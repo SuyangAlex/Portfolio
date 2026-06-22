@@ -10,7 +10,6 @@ const overlay       = document.getElementById('modalOverlay');
 const modal         = document.getElementById('modal');
 const modalClose    = document.getElementById('modalClose');
 const heroContactBtn = document.getElementById('heroContactBtn');
-const navContactBtn  = document.getElementById('navContactBtn');
 const sendBtn       = document.getElementById('sendBtn');
 const formView      = document.getElementById('formView');
 const successView   = document.getElementById('successView');
@@ -44,11 +43,6 @@ function closeModal() {
 }
 
 heroContactBtn.addEventListener('click', (e) => {
-    e.preventDefault();
-    openModal();
-});
-
-navContactBtn.addEventListener('click', (e) => {
     e.preventDefault();
     openModal();
 });
