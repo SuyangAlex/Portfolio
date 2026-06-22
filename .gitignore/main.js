@@ -1,8 +1,3 @@
-// ── EmailJS 設定 ──────────────────────────────────────────
-// 1. 前往 https://www.emailjs.com/ 註冊帳號
-// 2. 新增一個 Email Service（連結你的 Gmail）
-// 3. 新增一個 Email Template，變數名稱對應下方 templateParams
-// 4. 把以下三個值填入：
 const EMAILJS_PUBLIC_KEY  = 'Dimo9-EbiZAvTjkoh';   // Account > API Keys
 const EMAILJS_SERVICE_ID  = 'service_438aic5';   // Email Services > Service ID
 const EMAILJS_TEMPLATE_ID = 'template_id0n8fi';  // Email Templates > Template ID
