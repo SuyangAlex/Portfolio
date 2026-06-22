@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <title>Suyang Personal Branding</title>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            <p class="name">Suyang</p>
+            <ul class="menu">
+                <li><a href="#">服務項目</a></li>
+                <li><a href="https://suyangalex.github.io/Suyang-Portfolio/" target="_blank">專案作品</a></li>
+                <li><a href="#">部落格</a></li>
+                <li><a href="#" id="navContactBtn">與我聯絡</a></li>
+            </ul>
+        </div>
+
+        <!-- Profile -->
+        <div class="profile">
+            <div class="profile_text">
+                <p class="eng">Hello<br>I'm Suyang</p>
+                <p class="ch">
+                    畢業於臺灣大學 生物產業傳播暨發展學系<br>
+                    前端程式語言目前自學一年多，目標轉職前端工程師<br>
+                    喜歡把美學和程式結合，打造一個又一個精美的網頁設計！
+                </p>
+                <div class="contact_resume">
+                    <a href="#" id="heroContactBtn">與我聯絡</a>
+                    <a href="https://www.cake.me/pu9730251" target="_blank">我的履歷</a>
+                </div>
+            </div>
+            <img
+                class="profile_img"
+                src="https://github.com/SuyangAlex/Suyang-Portfolio/blob/main/img/handsome.jpg?raw=true"
+                alt="Suyang 個人照"
+            >
+        </div>
+
+        <!-- Service -->
+        <div class="service">
+            <p class="titleF">我能提供的</p>
+            <p class="titleS">SERVICES</p>
+            <div class="skills">
+                <div class="skill">
+                    <p class="first_line">01</p>
+                    <p class="second_line">前端切版</p>
+                    <p>使用 HTML、CSS、JavaScript 將設計稿還原為精準的網頁，注重細節與互動體驗。</p>
+                    <div class="description">
+                        <a href="#" aria-label="了解更多">→</a>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p class="first_line">02</p>
+                    <p class="second_line">網頁設計</p>
+                    <p>結合美學與使用者體驗，設計兼具視覺吸引力與易用性的介面。</p>
+                    <div class="description">
+                        <a href="#" aria-label="了解更多">→</a>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p class="first_line">03</p>
+                    <p class="second_line">品牌視覺</p>
+                    <p>從 Logo 到整體視覺識別，協助品牌建立一致且有記憶點的形象。</p>
+                    <div class="description">
+                        <a href="#" aria-label="了解更多">→</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="projects">
+            <div class="projects-heading">
+                <p class="label">專案作品</p>
+                <p class="big-title">PROJECTS</p>
+            </div>
+
+            <div class="cards-wrapper">
+                <div class="portfolio-card">
+                    <img class="card-bg" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2026-web-camp/project_1.png?raw=true" alt="多肉植物品牌電商專案截圖">
+                    <div class="card-overlay">
+                        <p class="card-date">Oct 16, 2025</p>
+                        <p class="card-tags">平面設計・網頁設計</p>
+                        <h2 class="card-title">品牌視覺與電商整合，多肉植物品牌電商建置</h2>
+                        <p class="card-desc">從品牌識別設計到 RWD 網站開發，打造療癒系植栽購物體驗</p>
+                        <a class="card-btn" href="#">前往專案</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <img class="card-bg" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2026-web-camp/project_2.png?raw=true" alt="個人化財務規劃軟體專案截圖">
+                    <div class="card-overlay">
+                        <p class="card-date">Oct 16, 2025</p>
+                        <p class="card-tags">平面設計・網頁設計・前端切版</p>
+                        <h2 class="card-title">數位產品 UI/UX 設計，個人化財務規劃軟體</h2>
+                        <p class="card-desc">運用數據視覺化邏輯，將複雜的財務數據轉化為直覺的操作介面</p>
+                        <a class="card-btn" href="#">前往專案</a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <img class="card-bg" src="https://github.com/hexschool/2022-web-layout-training/blob/main/2026-web-camp/project_3.png?raw=true" alt="法式甜點品牌視覺重塑專案截圖">
+                    <div class="card-overlay">
+                        <p class="card-date">Oct 16, 2025</p>
+                        <p class="card-tags">前端切版・後端開發</p>
+                        <h2 class="card-title">品牌識別與包裝設計，法式甜點品牌視覺重塑</h2>
+                        <p class="card-desc">以溫暖、輕盈的視覺語言，精準定位高質感市場的品牌形象</p>
+                        <a class="card-btn" href="#">前往專案</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Contact Modal -->
+    <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+        <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" id="modalClose" aria-label="關閉">✕</button>
+
+            <!-- Form View -->
+            <div id="formView">
+                <h2 class="modal-title" id="modalTitle">與我聯絡</h2>
+                <p class="modal-sub">有任何合作提案或問題，都歡迎留言，<br>我會盡快回覆你！</p>
+
+                <div class="form-group">
+                    <label for="inputName">姓名</label>
+                    <input type="text" id="inputName" placeholder="你的名字">
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail">Email</label>
+                    <input type="email" id="inputEmail" placeholder="your@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="inputMessage">訊息</label>
+                    <textarea id="inputMessage" rows="4" placeholder="想聊什麼都可以說..."></textarea>
+                </div>
+
+                <p class="form-error" id="formError"></p>
+                <button class="btn-send" id="sendBtn">送出訊息</button>
+            </div>
+
+            <!-- Success View -->
+            <div id="successView" class="success-view hidden">
+                <div class="success-icon">✓</div>
+                <p class="success-title">訊息已送出！</p>
+                <p class="success-sub">謝謝你的來信，<br>我通常會在 1–2 個工作天內回覆。</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
