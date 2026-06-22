@@ -1,5 +1,5 @@
-const EMAILJS_PUBLIC_KEY  = 'Dimo9-EbiZAvTjkoh';   // Account > API Keys
-const EMAILJS_SERVICE_ID  = 'service_438aic5';   // Email Services > Service ID
+const EMAILJS_PUBLIC_KEY  = 'M8ZA43Gqp0y_IV69h';   // Account > API Keys
+const EMAILJS_SERVICE_ID  = 'service_062sxt9';   // Email Services > Service ID
 const EMAILJS_TEMPLATE_ID = 'template_id0n8fi';  // Email Templates > Template ID
 // ─────────────────────────────────────────────────────────
 
